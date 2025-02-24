@@ -6,10 +6,14 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "better-sqlite3": "^11.8.1",
+    "drizzle-orm": "^0.39.3",
     "elysia": "latest"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "drizzle-kit": "^0.30.4"
   },
   "module": "src/index.js"
 }
